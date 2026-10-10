@@ -1,0 +1,14 @@
+{
+  "name": "gpolito-plugins",
+  "description": "Personal Claude Code plugins and mods by gpolito.",
+  "owner": {
+    "name": "Guillermo Polito"
+  },
+  "plugins": [
+    {
+      "name": "usage-limits-band",
+      "description": "A single dim line above the prompt in the desktop app with the 5-hour and 7-day plan usage limits as rings, with reset countdowns.",
+      "source": "./usage-limits-band"
+    }
+  ]
+}

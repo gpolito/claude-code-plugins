@@ -1,0 +1,4 @@
+# written by the engine when a mod loads; regenerated each time
+*/.claude-plugin/types/
+*/tsconfig.json
+.DS_Store
