@@ -73,7 +73,7 @@ export const register: Register = on => {
           <Box key={l.kind} flexDirection="row" alignItems="center" columnGap={1}>
             <Svg source={ring(l.percent)} alt={`${label(l.kind)} ${l.percent}% used`} width={RING_PX} height={RING_PX} />
             <Text color={tone(l.percent)} dimColor={tone(l.percent) === undefined}>
-              {`${label(l.kind)} ${l.percent}%${l.resetsAt ? ` ↻ ${until(l.resetsAt, now)}` : ''}`}
+              {`${l.percent}%${l.resetsAt ? ` ↻ ${until(l.resetsAt, now)}` : ''} (${label(l.kind)})`}
             </Text>
           </Box>
         ))}
