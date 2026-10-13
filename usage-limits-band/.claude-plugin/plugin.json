@@ -1,6 +1,6 @@
 {
   "name": "usage-limits-band",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A single dim line above the prompt in the desktop app with the 5-hour and weekly plan usage limits and their reset countdowns.",
   "author": {
     "name": "Guillermo Polito"
