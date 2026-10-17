@@ -9,6 +9,11 @@
       "name": "usage-limits-band",
       "description": "A single dim line above the prompt in the desktop app with the 5-hour and 7-day plan usage limits as rings, with reset countdowns.",
       "source": "./usage-limits-band"
+    },
+    {
+      "name": "sagemaker-space",
+      "description": "Check and bring up a SageMaker JupyterLab space (SSO login, app status, optional create-app) and verify the ssh connection to it.",
+      "source": "./sagemaker-space"
     }
   ]
 }

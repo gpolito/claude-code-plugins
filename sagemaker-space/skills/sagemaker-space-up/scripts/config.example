@@ -1,0 +1,9 @@
+# Copy to ~/.config/sagemaker-space-up/default.conf and fill in. Plain KEY=VALUE (sourced by bash).
+AWS_PROFILE_NAME=my-sso-profile
+REGION=us-east-1
+DOMAIN_ID=d-xxxxxxxxxxxx
+SPACE_NAME=my-space
+SSH_HOST=my-sagemaker-host
+# Optional
+APP_NAME=default
+REPO_PATH=/home/sagemaker-user/my-repo
