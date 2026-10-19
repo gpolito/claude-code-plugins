@@ -29,7 +29,7 @@ Plugins installed at the user scope also load in local sessions the desktop app 
 
 `usage-limits-band` was tested with the Claude desktop app 2.37337.1 and the `claude` CLI 2.1.296. Older versions are untested.
 
-`sagemaker-space` was tested on macOS (bash 3.2) with AWS CLI 2.29 against one JupyterLab space. Linux is untested. Not exercised yet: the real `create-app` (only `--dry-run` was run), an expired SSO login (exit code 2), the wait loop and the ssh retries.
+`sagemaker-space` was tested on macOS (bash 3.2) with AWS CLI 2.29 against one JupyterLab space. Linux is untested. Exercised with the real `create-app`, the wait loop, an expired SSO login (exit code 2) and the ssh retries. Not exercised yet: exit code 4 (app failed or wait timed out) and a custom `--wait`.
 
 ## Security
 

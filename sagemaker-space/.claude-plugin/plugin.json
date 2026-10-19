@@ -1,6 +1,6 @@
 {
   "name": "sagemaker-space",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check and bring up a SageMaker JupyterLab space (SSO login, app status, optional create-app) and verify the ssh connection to it.",
   "author": {
     "name": "Guillermo Polito"
